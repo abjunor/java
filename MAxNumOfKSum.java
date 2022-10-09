@@ -1,20 +1,10 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-
-
 
 public class MAxNumOfKSum {
     public static int maxOperations(int[] nums, int k) {
-        // ArrayList<Integer>arr=new ArrayList<>();
+        
         Arrays.sort(nums);
-        // for(int i:nums){
-        //     arr.add(i);
-        //         }
                 int ans=0;
-        //         Collections.sort(arr);  
-
-        //         System.out.println(arr);
                 int i=0;
                 int j=nums.length-1;
                 while(i<j){
