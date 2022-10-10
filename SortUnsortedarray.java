@@ -1,21 +1,5 @@
 import java.util.Arrays;
-
-import java.util.*;
 public class SortUnsortedarray {
-
-    // public static int findUnsortedSubarray(int[] nums) {
-    //     int a[]=nums;
-    //     return findUnsortedSubarrayhelper(nums,getsortarray(a));
-    // }
-
-    // public static int[] getsortarray(int[] nums){
-    //     int ans[]=new int [nums.length];
-    //     Arrays.sort(nums);
-    //     for(int i=0;i<nums.length;i++){
-    //         ans[i]=nums[i];
-    //     }
-    //     return ans;
-    // }
 
 
     public static int findUnsortedSubarray(int[] nums) {
